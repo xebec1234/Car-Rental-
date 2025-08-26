@@ -8,6 +8,9 @@ package carrental;
  *
  * @author admin
  */
-public class Vehicle {
-    
+public interface Vehicle {
+       void start();
+       void stop();
+       
+       double calculateRental(int days);
 }
